@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 3px;
+  }
+}
+
 /* Font + animation tokens */
 @theme {
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;

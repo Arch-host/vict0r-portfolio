@@ -110,7 +110,7 @@ export default function CommandPalette({ open, onClose, onTheme }: Props) {
       </div>
 
       {results.length > 0 ? (
-        <ul id="palette-list" role="listbox" aria-label="Commands" className="max-h-72 overflow-y-auto p-2">
+        <ul id="palette-list" role="listbox" aria-label="Commands" className="max-h-48 sm:max-h-72 overflow-y-auto p-2">
           {results.map((command, i) => (
             <li
               key={command.id}
