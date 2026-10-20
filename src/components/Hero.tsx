@@ -11,10 +11,8 @@ export default function Hero() {
             <span className="size-2 rounded-full bg-brand animate-pulse motion-reduce:animate-none" aria-hidden="true" />
             Available for freelance work
           </p>
-          <h1 className="text-4xl md:text-5xl font-bold text-heading mb-6 leading-tight">
-            Building Clean Code
-            <br />
-            in the Terminal Age
+          <h1 className="text-4xl lg:text-5xl font-bold text-heading mb-6 leading-tight text-balance">
+            Building Clean Code in the Terminal Age
           </h1>
           <p className="mb-8">
             ALX-certified, Linux-native, and fluent across the modern stack: from React and
