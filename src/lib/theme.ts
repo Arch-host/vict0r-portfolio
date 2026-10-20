@@ -1,8 +1,7 @@
 export const THEMES = [
-  { id: "green", label: "Green phosphor", swatch: "#00ff9c" },
-  { id: "amber", label: "Amber CRT", swatch: "#ffb000" },
-  { id: "cyan", label: "Cyan", swatch: "#00e5ff" },
-  { id: "paper", label: "Paper (light)", swatch: "#0a7a4b" },
+  { id: "system", label: "System" },
+  { id: "light", label: "Light" },
+  { id: "dark", label: "Dark" },
 ] as const;
 
 export type ThemeId = (typeof THEMES)[number]["id"];
@@ -15,9 +14,9 @@ const isTheme = (value: unknown): value is ThemeId =>
 export function readTheme(): ThemeId {
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    return isTheme(saved) ? saved : "green";
+    return isTheme(saved) ? saved : "system";
   } catch {
-    return "green"; // storage blocked (private mode, etc.)
+    return "system"; // storage blocked (private mode, etc.)
   }
 }
 
