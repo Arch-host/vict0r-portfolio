@@ -2,7 +2,7 @@
   "owner": "Arch-host",
   "count": 3,
   "sort": "pushed",
-  "exclude": ["vict0r-portfolio"],
+  "exclude": ["vict0r-portfolio", "Bank_test_api"],
   "descriptions": {
     "BokuSuperMarket": "An inventory management system for tracking stock and store operations.",
     "student-api": "A backend REST API for managing student records, focused on clean, testable endpoint design.",
