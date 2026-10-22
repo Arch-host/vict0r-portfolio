@@ -45,7 +45,7 @@ export default function Projects() {
           {repos.map(({ name, description, language, stars, pushedAt, url }) => (
             <Card key={name} interactive className="p-8 flex flex-col">
               <div className="flex items-center justify-between flex-wrap gap-2 mb-6">
-                <h3 className="text-heading text-xl font-bold break-all">{name}</h3>
+                <h3 className="text-heading text-xl font-bold break-words">{name}</h3>
                 {language && (
                   <span className="text-xs text-brand border border-brand/40 rounded px-2 py-1">
                     {language}
