@@ -1,20 +1,11 @@
 {
   "owner": "Arch-host",
-  "projects": [
-    {
-      "repo": "BokuSuperMarket",
-      "description": "An inventory management system for tracking stock and store operations, built with TypeScript.",
-      "tech": "TypeScript"
-    },
-    {
-      "repo": "student-api",
-      "description": "A backend REST API for managing student records, focused on clean, testable endpoint design.",
-      "tech": "JavaScript"
-    },
-    {
-      "repo": "React24-7",
-      "description": "A reviews platform built in React, exploring dynamic UI state and real-time content updates.",
-      "tech": "React"
-    }
-  ]
+  "count": 3,
+  "sort": "pushed",
+  "exclude": ["vict0r-portfolio"],
+  "descriptions": {
+    "BokuSuperMarket": "An inventory management system for tracking stock and store operations.",
+    "student-api": "A backend REST API for managing student records, focused on clean, testable endpoint design.",
+    "React24-7": "A reviews platform built in React, exploring dynamic UI state and real-time content updates."
+  }
 }

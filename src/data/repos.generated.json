@@ -1,17 +1,26 @@
-{
-  "BokuSuperMarket": {
-    "stars": 0,
+[
+  {
+    "name": "BokuSuperMarket",
+    "description": "Building an Inventory management system at TS",
     "language": "JavaScript",
-    "pushedAt": "2026-10-18T00:33:52Z"
-  },
-  "student-api": {
     "stars": 0,
-    "language": "JavaScript",
-    "pushedAt": "2026-08-27T13:30:44Z"
+    "pushedAt": "2026-10-18T00:33:52Z",
+    "url": "https://github.com/Arch-host/BokuSuperMarket"
   },
-  "React24-7": {
-    "stars": 0,
+  {
+    "name": "Digital-Banking-backend",
+    "description": "Digital Banking backend test",
     "language": null,
-    "pushedAt": "2026-05-18T23:15:50Z"
+    "stars": 0,
+    "pushedAt": "2026-10-17T03:08:40Z",
+    "url": "https://github.com/Arch-host/Digital-Banking-backend"
+  },
+  {
+    "name": "Bank_test_api",
+    "description": "A bank test - IBSS by Phoenix Doc",
+    "language": "JavaScript",
+    "stars": 0,
+    "pushedAt": "2026-10-07T04:38:35Z",
+    "url": "https://github.com/Arch-host/Bank_test_api"
   }
-}
+]
