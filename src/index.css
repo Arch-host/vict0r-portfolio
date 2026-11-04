@@ -63,6 +63,22 @@ body {
   font-family: var(--font-mono);
 }
 
+/* Scroll reveal (see ui/Reveal.tsx). Only hidden when the visitor allows motion.
+   In @layer components so Tailwind's delay-* utilities can still override the transition. */
+@layer components {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      opacity: 0;
+      transform: translateY(1.25rem);
+      transition: opacity 600ms ease-out, transform 600ms ease-out;
+    }
+    .reveal[data-in="true"] {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
 @layer base {
   :focus-visible {
     outline: 2px solid var(--brand);

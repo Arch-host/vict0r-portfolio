@@ -1,26 +1,16 @@
 [
   {
+    "name": "adesua-course-marketplace",
+    "description": "A video course marketplace, built as our TS Academy full-stack capstone project.",
+    "language": null,
+    "pushedAt": "2026-10-09T10:59:37Z",
+    "url": "https://github.com/Arch-host/adesua-course-marketplace"
+  },
+  {
     "name": "BokuSuperMarket",
     "description": "Building an Inventory management system at TS",
     "language": "JavaScript",
-    "stars": 0,
-    "pushedAt": "2026-10-18T00:33:52Z",
+    "pushedAt": "2026-10-28T02:48:25Z",
     "url": "https://github.com/Arch-host/BokuSuperMarket"
-  },
-  {
-    "name": "Digital-Banking-backend",
-    "description": "Digital Banking backend test",
-    "language": null,
-    "stars": 0,
-    "pushedAt": "2026-10-17T03:08:40Z",
-    "url": "https://github.com/Arch-host/Digital-Banking-backend"
-  },
-  {
-    "name": "student-api",
-    "description": "student-api",
-    "language": "JavaScript",
-    "stars": 0,
-    "pushedAt": "2026-08-27T13:30:44Z",
-    "url": "https://github.com/Arch-host/student-api"
   }
 ]

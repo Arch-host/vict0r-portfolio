@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://vict0r-portfolio.webneth99.workers.dev/sitemap.xml

@@ -17,7 +17,7 @@ export default function Button({ href, variant = "solid", external = false, chil
     <a
       href={href}
       {...(external && { target: "_blank", rel: "noopener noreferrer" })}
-      className={`inline-block rounded px-8 py-3 font-bold transition-colors ${styles[variant]}`}
+      className={`inline-flex items-center justify-center gap-2 rounded px-8 py-3 font-bold transition-colors ${styles[variant]}`}
     >
       {children}
     </a>
